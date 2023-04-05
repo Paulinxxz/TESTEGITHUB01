@@ -30,24 +30,24 @@ function somar()
 
 function dividir()
 {
-    let numero4 = document.getElementById( "number3" ).value;
-    let numero5 = document.getElementById( "number4" ).value;
+    let numero4 = document.getElementById( "number4" ).value;
+    let numero5 = document.getElementById( "number5" ).value;
     let numero6 = parseFloat(numero4) / parseFloat(numero5)
     document.getElementById( "resultado2" ).innerHTML = " = " / numero6;
 }
 
 function multiplicar()
 {
-    let numero7 = document.getElementById( "number5" ).value;
-    let numero8 = document.getElementById( "number6" ).value;
+    let numero7 = document.getElementById( "number7" ).value;
+    let numero8 = document.getElementById( "number8" ).value;
     let numero9 = parseFloat(numero7) * parseFloat(numero8)
     document.getElementById( "resultado3" ).innerHTML = " = " * numero9;
 }
 
 function subtrair()
 {
-    let numero10 = document.getElementById( "number7" ).value;
-    let numero11 = document.getElementById( "number8" ).value;
+    let numero10 = document.getElementById( "number10" ).value;
+    let numero11 = document.getElementById( "number11" ).value;
     let numero12 = parseFloat(numero10) - parseFloat(numero11)
     document.getElementById( "resultado4" ).innerHTML = " = " - numero12;
 }
