@@ -16,24 +16,29 @@ function exibenome()
 
 function somar()
 {
-    let usuario = document.getElementById( "number1" ).value;
-    let usuario = document.getElementById( "number2" ).value;
+    let numero1 = document.getElementById( "number1" ).value;
+    let numero2 = document.getElementById( "number2" ).value;
+    document.getElementById( "mensagem" ).innerHTML = numero1 + numero2;
 }
 
 function dividir()
 {
-    let usuario = document.getElementById( "number3" ).value;
-    let usuario = document.getElementById( "number4" ).value;
+    let numero3 = document.getElementById( "number3" ).value;
+    let numero4 = document.getElementById( "number4" ).value;
+    document.getElementById( "mensagem" ).innerHTML = numero3 / numero4
 }
 
 function multiplicar()
 {
-    let usuario = document.getElementById( "number5" ).value;
-    let usuario = document.getElementById( "number6" ).value;
+    let numero5 = document.getElementById( "number5" ).value;
+    let numero6 = document.getElementById( "number6" ).value;
+    document.getElementById( "mensagem" ).innerHTML = numero5 * numero6
 }
 
 function subtrair()
 {
-    let usuario = document.getElementById( "number7" ).value;
-    let usuario = document.getElementById( "number8" ).value;
+    let numero7 = document.getElementById( "number7" ).value;
+    let numero8 = document.getElementById( "number8" ).value;
+    document.getElementById( "mensagem" ).innerHTML = numero7 - numero8
+
 }
