@@ -19,5 +19,4 @@ function somarValores(){
     var s2 = document.getElementById("num2").value;
     var s3 = document.getElementById("resultado1").value;
     var s1 + s2 = s3;
-
 }
