@@ -18,7 +18,8 @@ function somar()
 {
     let numero1 = document.getElementById( "number1" ).value;
     let numero2 = document.getElementById( "number2" ).value;
-    document.getElementById( "resultado1" ).innerHTML = numero1 + numero2;
+    let numero3 = parseFloat(numero1) + parseFloat(numero2)
+    document.getElementById( "resultado1" ).innerHTML = " = " numero1 + numero2;
 }
 
 function dividir()
