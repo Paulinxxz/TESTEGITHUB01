@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENAI - JAVASCRIPT</title>
+    <script type="text/javascript">
+        function somarValores(){
+        var s1 = document.getElementById("s1").value;
+        var s2 = document.getElementById("s2").value;
+        var s3 = parseInt(s1) + parseInt(s2);
+        alert(s3);
+    }
+    </script>
 </head>
 <body>
 
@@ -19,12 +27,14 @@
         <span id="mensagem">Meu nome é: </span>
     </div>
     <br>
-    <input type="number" id="num1">
-    <span> + </span>
-    <input type="number" id="num2">
-    <span id="resultado1"></span>
-    <br>
-    <button id="btn-soma">Somar</button>
+    <fieldset>
+        <legend>Cálculo do salário</legend>
+        <label>Valor 1:</label>
+        <input id="s1" type="text"/>
+        <label>Valor 2: </label>
+        <input id="s2" type="text"/>
+        <button id="somar" onclick="somarValores()">Somar</button>
+    </fieldset>
 
     <script src="main.js" type="text/javascript"></script>
 </body>
