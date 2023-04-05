@@ -1,5 +1,7 @@
 document.addEventListener( "click" , showcolor );
 
+document.getElementById( "botao" ).addEventListener( "click" , exibenome);
+
 document.getElementById( "somar" ).addEventListener( "click" , somar);
 
 document.getElementById( "dividir" ).addEventListener( "click" , dividir);
