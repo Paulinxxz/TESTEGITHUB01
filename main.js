@@ -18,5 +18,22 @@ function somar()
 {
     let usuario = document.getElementById( "number1" ).value;
     let usuario = document.getElementById( "number2" ).value;
+}
 
+function dividir()
+{
+    let usuario = document.getElementById( "number3" ).value;
+    let usuario = document.getElementById( "number4" ).value;
+}
+
+function multiplicar()
+{
+    let usuario = document.getElementById( "number5" ).value;
+    let usuario = document.getElementById( "number6" ).value;
+}
+
+function subtrair()
+{
+    let usuario = document.getElementById( "number7" ).value;
+    let usuario = document.getElementById( "number8" ).value;
 }
